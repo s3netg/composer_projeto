@@ -1,0 +1,23 @@
+{
+    "name": "sergio/projeto",
+    "description": "Busca de Cep Online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sergio silva",
+            "email": "s3netg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "sergio\\projeto\\": "src/"
+        }
+    }
+}
